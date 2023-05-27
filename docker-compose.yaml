@@ -1,0 +1,36 @@
+version: '3.1'
+
+volumes:
+  postgres_volume:
+
+services:
+  app:
+    container_name: rest_backend
+    image: rest_backend
+    build:
+      context: .
+    #    restart: always
+    ports:
+      - "9000:8081"
+    depends_on:
+      - db
+    environment:
+      - DATASOURCE_HOST=db
+      - DATASOURCE_DBNAME=games
+      - DATASOURCE_PORT=5432
+      - DATASOURCE_USERNAME=postgres
+      - DATASOURCE_PASSWORD=123
+      - TZ=Europe/Moscow
+  db:
+    container_name: db
+    image: library/postgres:13
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=games
+
