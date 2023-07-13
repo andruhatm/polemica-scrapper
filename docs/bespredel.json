@@ -1,0 +1,577 @@
+{
+  "id": "184623",
+  "type": "lobby",
+  "daysNumber": 2.5,
+  "winnerCode": 2,
+  "judge": null,
+  "players": [
+    {
+      "id": "57859",
+      "username": "Mina",
+      "image": "\/images\/avatar\/57859\/09efbe2a45d759abb4d8e338a9376bb5.jpeg",
+      "role": {
+        "type": "civilian",
+        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
+      },
+      "tablePosition": 1,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.15,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.15
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.15,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.15
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": -0.3,
+        "achievements": {
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": -0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "38197",
+      "username": "Lissik",
+      "image": "\/images\/avatar\/38197\/6388d08920629d82984856adc5a5839f.jpeg",
+      "role": {
+        "type": "sheriff",
+        "title": "\u0428\u0435\u0440\u0438\u0444"
+      },
+      "tablePosition": 2,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.6,
+          "array": [
+            {
+              "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
+              "points": 0.6
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        }
+      ],
+      "achievementsSum": {
+        "points": 0.6,
+        "achievements": {
+          "best_move": {
+            "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
+            "points": 0.6
+          }
+        }
+      }
+    },
+    {
+      "id": "61773",
+      "username": "Governer",
+      "image": "\/images\/avatar\/1.png",
+      "role": {
+        "type": "civilian",
+        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
+      },
+      "tablePosition": 3,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.1,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.1
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.15,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.15
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": -0.05,
+        "achievements": {
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": -0.05
+          }
+        }
+      }
+    },
+    {
+      "id": "32548",
+      "username": "SlyCooper",
+      "image": "\/images\/avatar\/1.png",
+      "role": {
+        "type": "mafia",
+        "title": "\u041c\u0430\u0444\u0438\u044f"
+      },
+      "tablePosition": 4,
+      "w_l": "win",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.2,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.2
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 1.2,
+          "array": [
+            {
+              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
+              "points": 1
+            },
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.2
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": 1.4,
+        "achievements": {
+          "victory": {
+            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
+            "points": 1
+          },
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": 0.4
+          }
+        }
+      }
+    },
+    {
+      "id": "36896",
+      "username": "Wall\u0456",
+      "image": "\/images\/avatar\/36896\/8639547fc4689db3d1f0b40ae37f29ac.jpeg",
+      "role": {
+        "type": "civilian",
+        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
+      },
+      "tablePosition": 5,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.15,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.15
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.08,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.08
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": -0.23,
+        "achievements": {
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": -0.23
+          }
+        }
+      }
+    },
+    {
+      "id": "62269",
+      "username": "zabava",
+      "image": "\/images\/avatar\/62269\/0489383817a883ad8a121e4807293c8f.jpeg",
+      "role": {
+        "type": "civilian",
+        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
+      },
+      "tablePosition": 6,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.1,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.1
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        }
+      ],
+      "achievementsSum": {
+        "points": 0.1,
+        "achievements": {
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "61539",
+      "username": "\u0414\u0438\u043a\u0438\u0439\u0427\u0430\u043d",
+      "image": "\/images\/avatar\/1.png",
+      "role": {
+        "type": "civilian",
+        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
+      },
+      "tablePosition": 7,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.1,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.1
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.35,
+          "array": [
+            {
+              "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
+              "points": 0.35
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": 0.45,
+        "achievements": {
+          "best_move": {
+            "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
+            "points": 0.35
+          },
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "51777",
+      "username": "\u041e\u043b\u0430\u0434\u0443\u0448\u0435\u043a",
+      "image": "\/images\/avatar\/51777\/b83265d76d9bec1bcad9eb78e447d8b7.png",
+      "role": {
+        "type": "godfather",
+        "title": "\u0414\u043e\u043d"
+      },
+      "tablePosition": 8,
+      "w_l": "win",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.15,
+          "array": [
+            {
+              "title": "\u0423\u0431\u0438\u0439\u0441\u0442\u0432\u043e \u0448\u0435\u0440\u0438\u0444\u0430",
+              "points": 0.15
+            }
+          ]
+        },
+        {
+          "sum": 0.2,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.2
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 1.2,
+          "array": [
+            {
+              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
+              "points": 1
+            },
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.2
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": 1.55,
+        "achievements": {
+          "killing_sheriff": {
+            "title": "\u0423\u0431\u0438\u0439\u0441\u0442\u0432\u043e \u0448\u0435\u0440\u0438\u0444\u0430",
+            "points": 0.15
+          },
+          "victory": {
+            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
+            "points": 1
+          },
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": 0.4
+          }
+        }
+      }
+    },
+    {
+      "id": "32568",
+      "username": "Rasm",
+      "image": "\/images\/avatar\/32568\/ac690edb48274684f8d48d37dbac2fb1.jpeg",
+      "role": {
+        "type": "mafia",
+        "title": "\u041c\u0430\u0444\u0438\u044f"
+      },
+      "tablePosition": 9,
+      "w_l": "win",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.05,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.05
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 1.2,
+          "array": [
+            {
+              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
+              "points": 1
+            },
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.2
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": 1.15,
+        "achievements": {
+          "victory": {
+            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
+            "points": 1
+          },
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": 0.15
+          }
+        }
+      }
+    },
+    {
+      "id": "61481",
+      "username": "hokaqe",
+      "image": "\/images\/avatar\/1.png",
+      "role": {
+        "type": "civilian",
+        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
+      },
+      "tablePosition": 10,
+      "w_l": "lose",
+      "points": 0,
+      "coins": 0,
+      "achievements": [
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": 0.1,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": 0.1
+            }
+          ]
+        },
+        {
+          "sum": 0,
+          "array": []
+        },
+        {
+          "sum": -0.15,
+          "array": [
+            {
+              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+              "points": -0.15
+            }
+          ]
+        }
+      ],
+      "achievementsSum": {
+        "points": -0.05,
+        "achievements": {
+          "voting": {
+            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
+            "points": -0.05
+          }
+        }
+      }
+    }
+  ],
+  "firstKilled": "38197"
+}
