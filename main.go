@@ -13,34 +13,31 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
+	"polemica_scrapper/database/config"
 	"polemica_scrapper/handlers"
 	"time"
 )
 
-const (
-	host     = "db"
-	port     = 5432
-	user     = "postgres"
-	password = "123"
-	dbname   = "games"
+var (
+	appConfig config.Config
+	dbConf    config.DbConfig
 )
 
 func init() {
-	//db, _ := sql.Open("postgres", "postgres://db:5433/database?sslmode=enable")
-	//driver, _ := postgres.WithInstance(db, &postgres.Config{})
-	//m, _ := migrate.NewWithDatabaseInstance(
-	//	"file:///migrations",
-	//	"postgres", driver)
-	//m.Up() // or m.Step(2) if you want to explicitly set the number of migrations to run
+
+	config.ParseConfig(&appConfig)
+	config.ReadEnv(&appConfig)
+
+	dbConf = appConfig.DbConfig
 
 	m, err := migrate.New(
 		"file://database/migrations/",
-		"postgres://postgres:123@db:5433/games?sslmode=disable")
-	// postgres://user:secret@localhost:5432/mydatabasename
+		fmt.Sprintf("postgres://%s:%s@%s:%d/%s?sslmode=disable", dbConf.User, dbConf.Password, dbConf.Host, dbConf.Port, dbConf.Dbname),
+	)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatalf("Cant handle migrations with err: %v", err)
 	}
-	if err := m.Up(); err != nil {
+	if err := m.Up(); err != migrate.ErrNoChange {
 		log.Fatal(err)
 	}
 }
@@ -55,13 +52,17 @@ func main() {
 	//create new serve mux and register handlers
 	sm := mux.NewRouter()
 
-	//create handler
+	//create handlers
 	syncGameHandler := handlers.NewGameSync(l)
+	syncStatsHandler := handlers.NewStatsHandler(l)
 
 	//sync router
 	syncRouter := sm.Methods(http.MethodGet).Subrouter()
+
 	//register game endpoint
 	syncRouter.HandleFunc("/register/{gameId}", syncGameHandler.RegisterGame).Methods(http.MethodGet)
+	//fetch stats
+	syncRouter.HandleFunc("/rating", syncStatsHandler.FetchRatings).Methods(http.MethodGet)
 
 	//probes router
 	probesRouter := sm.Methods(http.MethodGet).Subrouter()
@@ -72,13 +73,15 @@ func main() {
 			return
 		}
 	})
+
 	probesRouter.HandleFunc("/probes/liveness", func(rw http.ResponseWriter, r *http.Request) {
 		//check if we can access DB
 
 		connStr := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
-			host, port, user, password, dbname)
+			dbConf.Host, dbConf.Port, dbConf.User, dbConf.Password, dbConf.Dbname)
 
-		_, err := sql.Open("postgres", connStr)
+		db, err := sql.Open("postgres", connStr)
+		l.Printf("Successful db connect: %v", db)
 
 		if err != nil {
 			l.Printf("Error while connection to DB with err=%s", err)

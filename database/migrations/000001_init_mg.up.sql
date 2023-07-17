@@ -1,10 +1,10 @@
 CREATE TABLE "player"
 (
-    "player_id"   integer      NOT NULL,
-    "username"    varchar(255) NOT NULL,
-    "games_count" BOOLEAN      NOT NULL,
-    "score"       integer      NOT NULL,
-    "avg_score"   integer      NOT NULL,
+    "player_id"   INTEGER      NOT NULL,
+    "username"    VARCHAR(255) NOT NULL,
+    "games_count" INTEGER      NOT NULL,
+    "score"       FLOAT      NOT NULL,
+    "avg_score"   FLOAT      NOT NULL,
     CONSTRAINT "player_pk" PRIMARY KEY ("player_id")
 ) WITH (
       OIDS = FALSE
