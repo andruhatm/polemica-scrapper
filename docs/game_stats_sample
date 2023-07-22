@@ -1,843 +1,953 @@
-{
-  "id": "183946",
-  "type": "lobby",
-  "daysNumber": 4.5,
-  "winnerCode": 1,
-  "judge": null,
-  "players": [
-    {
-      "id": "62051",
-      "username": "loufina",
-      "image": "\/images\/avatar\/1.png",
-      "role": {
-        "type": "mafia",
-        "title": "\u041c\u0430\u0444\u0438\u044f"
-      },
-      "tablePosition": 1,
-      "w_l": "lose",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.2,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.2
-            }
-          ]
-        },
-        {
-          "sum": -0.1,
-          "array": [
-            {
-              "title": "\u041d\u0435\u0441\u043e\u0441\u0442\u0440\u0435\u043b",
-              "points": -0.1
-            }
-          ]
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        }
-      ],
-      "achievementsSum": {
-        "points": 0.3,
-        "achievements": {
-          "inconsistent_shooting": {
-            "title": "\u041d\u0435\u0441\u043e\u0441\u0442\u0440\u0435\u043b",
-            "points": -0.1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.4
-          }
-        }
-      }
+<!DOCTYPE html>
+<html class="page" lang="ru-RU" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+            <meta name="viewport" content="width=1200">
+    
+	<meta name="yandex-verification" content="510c3337d67e4ccf"/>
+	<meta name="google-site-verification" content="bD1v9KYfsIX3gWwKqRC8LQPp8CNpHAe_K93HtUdTj5g" />
+		<meta name="csrf-param" content="_csrf-maf11front">
+<meta name="csrf-token" content="6bs0dRLzZCZKDFRgyi0z0u5ILk1KLCk4R9sUFxWtYsOB7QY_fd4udS5PCxK7eUOE1iweHwxhHWEhv3gkWM4NmQ==">
+	<title>Статистика игры №194027 Polemica</title>
+		<meta name="description" content="Статистика игры №194027 – Лучшие условия для игры в Мафию на сайте Polemica"/>
+	
+	<meta property="og:url" content="http://polemicagame.com/game-statistics/194027" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Статистика игры №194027" />
+		
+	<link href="/bundle/main.css?v=1686040737" rel="stylesheet">
+<script>localStorage.removeItem('isLogin')</script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+</head>
+<body class="page__body home guest">
+	
+	<div id="app">
+		<div class="wrapper ">
+			<img src=https: //polemicagames.kz/region/image?region=RU style="position: fixed; left: -999px;"/>
+<header-vue
+        ref="header":academy-available="false"
+        current-user='null'
+        :is-header-transparent="false":has-live="true":disable-socket="false"
+        game-search-service-url="https://het1.polemicagame.com:4242"
+        support-service-url="https://t.me/polemica_support"
+        backend-socket-io-url="":tournament-available="true":tournaments='{
+    "0": {
+        "name": "Last Chance Qual #3",
+        "id": 164
     },
-    {
-      "id": "32549",
-      "username": "Obraz",
-      "image": "\/images\/avatar\/32549\/826c76a884bf8852701fbc3ca6429a97.jpeg",
-      "role": {
-        "type": "mafia",
-        "title": "\u041c\u0430\u0444\u0438\u044f"
-      },
-      "tablePosition": 2,
-      "w_l": "lose",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": -0.05,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": -0.05
-            }
-          ]
-        },
-        {
-          "sum": -0.1,
-          "array": [
-            {
-              "title": "\u041d\u0435\u0441\u043e\u0441\u0442\u0440\u0435\u043b",
-              "points": -0.1
-            }
-          ]
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        }
-      ],
-      "achievementsSum": {
-        "points": -0.05,
-        "achievements": {
-          "inconsistent_shooting": {
-            "title": "\u041d\u0435\u0441\u043e\u0441\u0442\u0440\u0435\u043b",
-            "points": -0.1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.05
-          }
-        }
-      }
+    "1": {
+        "name": "Last Chance Qual #4",
+        "id": 169
     },
-    {
-      "id": "61529",
-      "username": "<Aleksa>",
-      "image": "\/images\/avatar\/61529\/e9dcaa90cf1175745e9e914e4f768fd6.jpeg",
-      "role": {
-        "type": "civilian",
-        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
-      },
-      "tablePosition": 3,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.05,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.05
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.2,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.2
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1.25,
-          "array": [
-            {
-              "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
-              "points": 0.25
-            },
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 1.6,
-        "achievements": {
-          "best_move": {
-            "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
-            "points": 0.25
-          },
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.35
-          }
-        }
-      }
+    "2": {
+        "name": "Last Chance Qual #5",
+        "id": 170
     },
-    {
-      "id": "32548",
-      "username": "SlyCooper",
-      "image": "\/images\/avatar\/1.png",
-      "role": {
-        "type": "civilian",
-        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
-      },
-      "tablePosition": 4,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1,
-          "array": [
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 1.1,
-        "achievements": {
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.1
-          }
-        }
-      }
+    "3": {
+        "name": "KNOCK!OUT",
+        "id": 167
     },
-    {
-      "id": "38197",
-      "username": "Lissik",
-      "image": "\/images\/avatar\/1.png",
-      "role": {
-        "type": "civilian",
-        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
-      },
-      "tablePosition": 5,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.2,
-          "array": [
-            {
-              "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
-              "points": 0.2
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1,
-          "array": [
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 1.2,
-        "achievements": {
-          "best_move": {
-            "title": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0445\u043e\u0434",
-            "points": 0.2
-          },
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          }
-        }
-      }
+    "4": {
+        "name": "AKTAU OPEN CUP",
+        "id": 162
     },
-    {
-      "id": "55298",
-      "username": "larry",
-      "image": "\/images\/avatar\/55298\/c79a555815117a59ca206b930155c876.jpeg",
-      "role": {
-        "type": "civilian",
-        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
-      },
-      "tablePosition": 6,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": -0.15,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": -0.15
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1,
-          "array": [
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 0.85,
-        "achievements": {
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": -0.15
-          }
-        }
-      }
-    },
-    {
-      "id": "51777",
-      "username": "\u041e\u043b\u0430\u0434\u0443\u0448\u0435\u043a",
-      "image": "\/images\/avatar\/51777\/b83265d76d9bec1bcad9eb78e447d8b7.png",
-      "role": {
-        "type": "civilian",
-        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
-      },
-      "tablePosition": 7,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": -0.15,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": -0.15
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.05,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.05
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.2,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.2
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1.2,
-          "array": [
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            },
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.2
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 1.3,
-        "achievements": {
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.3
-          }
-        }
-      }
-    },
-    {
-      "id": "59326",
-      "username": "joker.wow",
-      "image": "\/images\/avatar\/1.png",
-      "role": {
-        "type": "godfather",
-        "title": "\u0414\u043e\u043d"
-      },
-      "tablePosition": 8,
-      "w_l": "lose",
-      "points": 0,
-      "coins": 15,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.2,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.2
-            }
-          ]
-        },
-        {
-          "sum": -0.05,
-          "array": [
-            {
-              "title": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0434\u043e\u043d\u0430",
-              "points": 0.05
-            },
-            {
-              "title": "\u041d\u0435\u0441\u043e\u0441\u0442\u0440\u0435\u043b",
-              "points": -0.1
-            }
-          ]
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 0.45,
-        "achievements": {
-          "godfather_detection": {
-            "title": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0434\u043e\u043d\u0430",
-            "points": 0.05
-          },
-          "inconsistent_shooting": {
-            "title": "\u041d\u0435\u0441\u043e\u0441\u0442\u0440\u0435\u043b",
-            "points": -0.1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.5
-          }
-        }
-      }
-    },
-    {
-      "id": "23694",
-      "username": "Likim",
-      "image": "\/images\/avatar\/23694\/bd5addfe00a15135183b22bf3eb29636.jpeg",
-      "role": {
-        "type": "sheriff",
-        "title": "\u0428\u0435\u0440\u0438\u0444"
-      },
-      "tablePosition": 9,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0.05,
-          "array": [
-            {
-              "title": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0448\u0435\u0440\u0438\u0444\u0430",
-              "points": 0.05
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.15,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.15
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1.15,
-          "array": [
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            },
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.15
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 1.45,
-        "achievements": {
-          "sheriff_detection": {
-            "title": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0448\u0435\u0440\u0438\u0444\u0430",
-            "points": 0.05
-          },
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.4
-          }
-        }
-      }
-    },
-    {
-      "id": "55299",
-      "username": "\u0410\u043c0\u043d\u0434\u043e\u0447\u043a\u0430",
-      "image": "\/images\/avatar\/55299\/ac52bb5644ba1b9a706e9ce5cebd5a11.jpeg",
-      "role": {
-        "type": "civilian",
-        "title": "\u041c\u0438\u0440\u043d\u044b\u0439"
-      },
-      "tablePosition": 10,
-      "w_l": "win",
-      "points": 0,
-      "coins": 0,
-      "achievements": [
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.1,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.1
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0.05,
-          "array": [
-            {
-              "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-              "points": 0.05
-            }
-          ]
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 0,
-          "array": []
-        },
-        {
-          "sum": 1,
-          "array": [
-            {
-              "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-              "points": 1
-            }
-          ]
-        }
-      ],
-      "achievementsSum": {
-        "points": 1.15,
-        "achievements": {
-          "victory": {
-            "title": "\u041f\u043e\u0431\u0435\u0434\u0430",
-            "points": 1
-          },
-          "voting": {
-            "title": "\u0413\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u043d\u0438\u0435",
-            "points": 0.15
-          }
-        }
-      }
+    "5": {
+        "name": "Первый класс",
+        "id": 163
     }
-  ],
-  "firstKilled": "38197"
+}'
+        last-chance-qual-name="Last Chance"
+        last-chance-qual-id="149":hide-scroll-to-top="false":header-items='[
+    {
+        "id": 1,
+        "type": "button",
+        "title": "Играть",
+        "url": "/game-search",
+        "show": true,
+        "subelems": null
+    },
+    {
+        "id": 2,
+        "type": "button",
+        "title": "Сommunity",
+        "url": "https://polemica.community/",
+        "show": true,
+        "subelems": null
+    },
+    {
+        "id": 3,
+        "type": "button",
+        "title": "Турниры",
+        "url": "/competitions",
+        "show": true,
+        "subelems": [
+            {
+                "id": 5,
+                "title": "Информация",
+                "url": "/competitions",
+                "show": true
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "button",
+        "title": "Смотреть",
+        "url": "/watch-games",
+        "show": true,
+        "subelems": null
+    },
+    {
+        "id": 7,
+        "type": "button",
+        "title": "Клубы",
+        "url": "/clubs",
+        "show": true,
+        "subelems": null
+    },
+    {
+        "id": 9,
+        "type": "button",
+        "title": "Правила",
+        "url": "/rules",
+        "show": true,
+        "subelems": null
+    },
+    {
+        "id": 10,
+        "type": "button",
+        "title": "Подписка",
+        "url": "/subscription",
+        "show": true,
+        "subelems": null
+    },
+    {
+        "id": 11,
+        "type": "button",
+        "title": "Магазин",
+        "url": "/shop",
+        "show": true,
+        "subelems": null
+    }
+]'
+>
+</header-vue>
+
+
+						<main class="content">
+			
+			
+<Gamestats
+	:appeals-available="true":game-data='{
+    "id": "194027",
+    "type": "lobby",
+    "daysNumber": 3.5,
+    "winnerCode": 1,
+    "judge": null,
+    "players": [
+        {
+            "id": "10286",
+            "username": "(FaYcT)",
+            "image": "/images/avatar/10286/9ece2ba2af5de362b26370af97bd791e.jpeg",
+            "role": {
+                "type": "sheriff",
+                "title": "Шериф"
+            },
+            "tablePosition": 1,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.15,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.15
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.15,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.15
+                        }
+                    ]
+                },
+                {
+                    "sum": 0.15,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.15
+                        }
+                    ]
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.45,
+                "achievements": {
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    },
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.45
+                    }
+                }
+            }
+        },
+        {
+            "id": "15839",
+            "username": "Jokeeeeer",
+            "image": "/images/avatar/15839/c744c6f27055bb75755c193d2f4b5616.jpeg",
+            "role": {
+                "type": "mafia",
+                "title": "Мафия"
+            },
+            "tablePosition": 2,
+            "w_l": "lose",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": -0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": -0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                }
+            ],
+            "achievementsSum": {
+                "points": 0,
+                "achievements": {
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0
+                    }
+                }
+            }
+        },
+        {
+            "id": "51760",
+            "username": "Carveryу",
+            "image": "/images/avatar/1.png",
+            "role": {
+                "type": "godfather",
+                "title": "Дон"
+            },
+            "tablePosition": 3,
+            "w_l": "lose",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                }
+            ],
+            "achievementsSum": {
+                "points": 0.2,
+                "achievements": {
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.2
+                    }
+                }
+            }
+        },
+        {
+            "id": "63027",
+            "username": "Эстеточка",
+            "image": "/images/avatar/1.png",
+            "role": {
+                "type": "civilian",
+                "title": "Мирный"
+            },
+            "tablePosition": 4,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.5,
+                "achievements": {
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    },
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.5
+                    }
+                }
+            }
+        },
+        {
+            "id": "55298",
+            "username": "larry",
+            "image": "/images/avatar/55298/c79a555815117a59ca206b930155c876.jpeg",
+            "role": {
+                "type": "civilian",
+                "title": "Мирный"
+            },
+            "tablePosition": 5,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": -0.08,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": -0.08
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.33,
+                "achievements": {
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    },
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.33
+                    }
+                }
+            }
+        },
+        {
+            "id": "55299",
+            "username": "Ам0ндочка",
+            "image": "/images/avatar/55299/ac52bb5644ba1b9a706e9ce5cebd5a11.jpeg",
+            "role": {
+                "type": "mafia",
+                "title": "Мафия"
+            },
+            "tablePosition": 6,
+            "w_l": "lose",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                }
+            ],
+            "achievementsSum": {
+                "points": 0.1,
+                "achievements": {
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.1
+                    }
+                }
+            }
+        },
+        {
+            "id": "23694",
+            "username": "Likim",
+            "image": "/images/avatar/23694/bd5addfe00a15135183b22bf3eb29636.jpeg",
+            "role": {
+                "type": "civilian",
+                "title": "Мирный"
+            },
+            "tablePosition": 7,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.2,
+                "achievements": {
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    },
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.2
+                    }
+                }
+            }
+        },
+        {
+            "id": "63272",
+            "username": "isuemi",
+            "image": "/images/avatar/63272/ccf24ada53522aef6c623c46f9a4da48.jpeg",
+            "role": {
+                "type": "civilian",
+                "title": "Мирный"
+            },
+            "tablePosition": 8,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.1,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.1
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.5,
+                "achievements": {
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    },
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.5
+                    }
+                }
+            }
+        },
+        {
+            "id": "32568",
+            "username": "Rasm",
+            "image": "/images/avatar/32568/ac690edb48274684f8d48d37dbac2fb1.jpeg",
+            "role": {
+                "type": "civilian",
+                "title": "Мирный"
+            },
+            "tablePosition": 9,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.4,
+                    "array": [
+                        {
+                            "title": "Лучший ход",
+                            "points": 0.4
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.4,
+                "achievements": {
+                    "best_move": {
+                        "title": "Лучший ход",
+                        "points": 0.4
+                    },
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    }
+                }
+            }
+        },
+        {
+            "id": "15921",
+            "username": "-WINter",
+            "image": "/images/avatar/15921/c1095b86361ead8645315d40ec875ca1.jpeg",
+            "role": {
+                "type": "civilian",
+                "title": "Мирный"
+            },
+            "tablePosition": 10,
+            "w_l": "win",
+            "points": 0,
+            "coins": 0,
+            "achievements": [
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 0,
+                    "array": []
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 0.2,
+                    "array": [
+                        {
+                            "title": "Голосование",
+                            "points": 0.2
+                        }
+                    ]
+                },
+                {
+                    "sum": 1,
+                    "array": [
+                        {
+                            "title": "Победа",
+                            "points": 1
+                        }
+                    ]
+                }
+            ],
+            "achievementsSum": {
+                "points": 1.6,
+                "achievements": {
+                    "victory": {
+                        "title": "Победа",
+                        "points": 1
+                    },
+                    "voting": {
+                        "title": "Голосование",
+                        "points": 0.6
+                    }
+                }
+            }
+        }
+    ],
+    "firstKilled": "32568"
+}'
+	:user='null'
+>
+</Gamestats>
+						</main>
+			
+			<footer-vue
+	ref="footer":academy-available="false"
+	media-server-url="https://het5.polemicagame.com:8088/janus":social-links='{
+    "facebook": "https://www.facebook.com/playmafia.pro/",
+    "twitch": "https://www.twitch.tv/polemicatv",
+    "youtube": "https://www.youtube.com/channel/UCZGeFNcc4oVpDPBDlojAplg",
+    "vkontakte": "https://vk.com/polemicagame",
+    "telegram": "https://t.me/polemicagame",
+    "telegramSupport": "https://t.me/polemica_support",
+    "instagram": "https://www.instagram.com/polemicagame/"
+}'
+	turn-server-connection-data='{
+    "url": "het5.polemicagame.com:3478",
+    "username": "user",
+    "credential": "LRxBDudCGfsMy45M"
+}'
+	:use-captcha='false'
+	:user='null'
+	:domains='{
+    "RU": {
+        "region": "RU",
+        "code": "ru",
+        "address": "https://polemicagame.com",
+        "flag": "RU"
+    },
+    "KZ": {
+        "region": "KZ",
+        "code": "eu",
+        "address": "https://polemicagames.kz",
+        "flag": "GB"
+    }
+}'
+	current-region="RU"
+></footer-vue>
+
+					</div>
+	</div>
+
+	<script src="/bundle/main.js?v=1686040737" async="async"></script>
+	<!-- Yandex.Metrika counter -->
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+	setTimeout(()=>{
+		(function(m,e,t,r,i,k,a){m[i
+            ]=m[i
+            ]||function(){(m[i
+                ].a=m[i
+                ].a||[]).push(arguments)
+            };m[i
+            ].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[
+                0
+            ],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym");
+		ym(67583626,
+        "init",
+        { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true
+        });
+		ym(85713953,
+        "init",
+        { clickmap: true, trackLinks: true, accurateTrackBounce: true
+        });
+    },
+    2000);
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/67583626" style="position:absolute; left:-9999px;" alt="" /></div><div><img src="https://mc.yandex.ru/watch/85713953" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9NNKF5QT5E"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);
 }
+    gtag('js', new Date());
+
+    gtag('config', 'G-9NNKF5QT5E');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l
+    ]=w[l
+    ]||[];w[l
+    ].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'
+    });var f=d.getElementsByTagName(s)[
+        0
+    ],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https: //www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NP7XFGK');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP7XFGK"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+</html>

@@ -1,41 +1,35 @@
-[
-    {
-        "username":"name1",
-        "player_id":1231,
-        "games_count": 10,
-        "score": 12.2,
-        "avg_score": 10.0
-    },
-
-    {
-        "username":"name2",
-        "player_id":1232,
-        "games_count": 11,
-        "score": 16.2,
-        "avg_score": 9.0
-    },
-
-    {
-        "username":"name3",
-        "player_id":1233,
-        "games_count": 12,
-        "score": 12.2,
-        "avg_score": 10.0
-    },
-
-    {
-        "username":"name4",
-        "player_id":1234,
-        "games_count": 13,
-        "score": 17.2,
-        "avg_score": 6.0
-    },
-
-    {
-        "username":"name5",
-        "player_id":1235,
-        "games_count": 14,
-        "score": 12.2,
-        "avg_score": 10.0
-    }
-]
+{
+    "id":"194978",
+    "type":"lobby",
+    "daysNumber":4.5,
+    "winnerCode":2,
+    "judge":null,
+    "players":[
+        {
+            "id":"51760",
+            "username":"Carvery\u0443",
+            "image":"\/images\/avatar\/1.png",
+            "role":{
+                "type":"civilian",
+                "title":"\u041c\u0438\u0440\u043d\u044b\u0439"
+            },
+            "tablePosition":1,
+            "w_l":"lose",
+            "points":0,
+            "coins":0,
+            "achievements":[
+                {
+                    "sum":0,
+                    "array":[
+                    ]
+                }
+            ],
+            "achievementsSum":{
+                "points":0,
+                "achievements":[
+                ]
+            }
+        }
+    ],
+    "firstKilled":"36871"
+}
